@@ -74,6 +74,13 @@ let g:solarized_termtrans=1
 " in ~/.vim/colors/ and uncomment:
 " colorscheme solarized
 
+" Highlight tabs as errors.
+" https://vi.stackexchange.com/a/9353/3168
+match Error /\t/
+" Set characters for tabs
+set list
+set listchars=tab:>-
+
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 
@@ -83,4 +90,3 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
-
