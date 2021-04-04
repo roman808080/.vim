@@ -81,6 +81,9 @@ match Error /\t/
 set list
 set listchars=tab:>-
 
+" PACKAGES Settings
+
+" START NERDTree
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 
@@ -90,3 +93,12 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
+
+" Replace arrows
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
+
+" Bindings for openning and focus
+nmap <F1> :NERDTreeToggle<CR>
+nmap <F2> :NERDTreeFocus<CR>
+" END NERDTree
