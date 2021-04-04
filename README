@@ -1,8 +1,6 @@
 Installation:
 1. cd ~
 2. git clone <the name of this repository>
-3. ln -s ./.vim/.vimrc .
-4. cd ./.vim
-5. git submodule init
-6. git submodule update
-
+3. cd ./.vim
+4. git submodule init
+5. git submodule update
