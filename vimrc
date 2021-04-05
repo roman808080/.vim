@@ -102,3 +102,10 @@ let g:NERDTreeDirArrowCollapsible = '-'
 nmap <F1> :NERDTreeToggle<CR>
 nmap <F2> :NERDTreeFocus<CR>
 " END NERDTree
+
+" START taglist.vim
+" Open and close tags
+nnoremap <silent> <F8> :TlistToggle<CR>
+" Fixes sizes of the tag window
+let g:Tlist_WinWidth=29
+" END taglist.vim
