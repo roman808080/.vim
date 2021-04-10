@@ -78,8 +78,8 @@ let g:solarized_termtrans=1
 " https://vi.stackexchange.com/a/9353/3168
 match Error /\t/
 " Set characters for tabs
-set list
-set listchars=tab:>-
+" set list
+" set listchars=tab:>-
 
 " PACKAGES Settings
 
