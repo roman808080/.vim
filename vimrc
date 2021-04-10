@@ -76,7 +76,7 @@ let g:solarized_termtrans=1
 
 " Highlight tabs as errors.
 " https://vi.stackexchange.com/a/9353/3168
-match Error /\t/
+" match Error /\t/
 " Set characters for tabs
 " set list
 " set listchars=tab:>-
