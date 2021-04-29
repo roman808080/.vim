@@ -1,0 +1,1 @@
+/home/roman/.vim/vimrc

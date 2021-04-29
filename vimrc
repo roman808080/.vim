@@ -81,6 +81,10 @@ let g:solarized_termtrans=1
 " set list
 " set listchars=tab:>-
 
+" Adding mouse support.
+set mouse=a
+set ttymouse=sgr
+
 " PACKAGES Settings
 
 " START NERDTree
@@ -109,3 +113,4 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 " Fixes sizes of the tag window
 let g:Tlist_WinWidth=29
 " END taglist.vim
+
