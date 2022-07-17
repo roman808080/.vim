@@ -39,3 +39,6 @@ set laststatus=2
 set showmode
 set showcmd
 
+" Set colorsheme
+colorscheme koehler
+let g:airline_theme='simple'
