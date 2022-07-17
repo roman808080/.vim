@@ -4,9 +4,6 @@ set nocompatible
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
-" Load plugins here (pathogen)
-execute pathogen#infect()
-
 " Turn on syntax highlighting
 syntax on
 
