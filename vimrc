@@ -39,6 +39,12 @@ set laststatus=2
 set showmode
 set showcmd
 
+" Set mouse
+set mouse=a
+
 " Set colorsheme
 colorscheme koehler
 let g:airline_theme='simple'
+
+" Plugins
+autocmd TextYankPost * if v:event.operator is 'y' && v:event.regname is '' | execute 'OSCYankReg "' | endif
