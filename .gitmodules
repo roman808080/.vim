@@ -7,3 +7,6 @@
 [submodule "pack/vendor/start/vim-polyglot"]
 	path = pack/vendor/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "pack/vendor/start/vim-oscyank"]
+	path = pack/vendor/start/vim-oscyank
+	url = https://github.com/ojroques/vim-oscyank.git
